@@ -1,5 +1,5 @@
-// const API_KEY = "236f9d1d7d1841bf940d92b1a2f2a71f";
-// const API_URL = "https://newsapi.org/v2/everything?q=";
+const API_KEY = "236f9d1d7d1841bf940d92b1a2f2a71f";
+const API_URL = "https://newsapi.org/v2/everything?q=";
 
 /* 
 
