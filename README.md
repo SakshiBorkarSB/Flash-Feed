@@ -27,10 +27,10 @@ News API – Fetching real-time news content
 ## Preview
 
 ### ☀️ Light Mode
-![Homepage](Assets/light-mode.png)
+![Homepage](light-mode.png)
 
 ### 🌙 Dark Mode
-![Dark Mode](Assets/dark-mode.png)
+![Dark Mode](dark-mode.png)
 
 
 
