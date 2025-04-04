@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash Feed</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+ 
+    <!-- Navigation Bar  -->
+    <header>
+        
+        <nav id="navbar">
+
+            <!-- Logo -->
+            <div class="logo">
+                <a href="#" onclick="reload()" class="logo">FlashFeed</a>
+            </div>
+
+            <!-- Hamburger Menu for responsive view -->
+            <i class='bx bx-menu' id="hamburger"></i>
+
+            <!-- Navigation Links -->
+            <div class="navLinks">
+                <ul>  
+                    <li id="business" onclick="clickNavItem('business')">Business</li>
+                    <li id="entertainment" onclick="clickNavItem('entertainment')">Entertainment</li>
+                    <li id="technology" onclick="clickNavItem('technology')">Technology</li>
+                    <li id="sports" onclick="clickNavItem('sports')">Sports</li>
+
+                    <!-- Toggle Dark and Light Mode  -->
+                    <div class="toggleMode">
+                        <i class='bx bx-moon' id="dark-mode-toggle"></i>
+                    </div>                    
+
+
+                </ul>
+            </div>
+            
+
+        </nav>
+    </header>
+
+
+
+    <!-- Section  -->
+    <section>
+        <div class="quote">Flash Feed - 'Stay Updated, Stay Ahead!'</div>
+
+
+        <div class="searchBar">
+            <input id="searchNews" type="text" class="searchNews" placeholder="e.g., Technology">
+            <button id="searchButton" class="searchButton">Search</button>
+        </div>
+    </section>
+
+
+
+    <!-- Main Section  -->
+     <main>
+        <div class="cardsCollection" id="cardsCollection">
+
+
+            <!-- Cards will be visible with the help of templates since we want multiple cards after calling API -->
+
+
+        </div>
+     </main>
+
+
+     <footer>
+        <p>&copy; 2025 Flash Feed. All Rights Reserved.</p>
+        <a href="#navbar">
+            <img class="stick" src="arrow.png" alt="icon">
+        </a>
+     </footer>
+
+    
+
+    <template id="newsCardTemplate">
+        <div class="card">
+            <div class="cardImage">
+                <!-- Placeholder.com allows to generate customizable placeholder images by specifying dimensions in the URL -->
+                <img src="https://via.placeholder.com/400x200" alt="newsImage" id="newsImage">
+            </div>
+
+        <div class="cardContent">
+            <h3 id="newsTitle">Title</h3>
+            <h6 id="newsSource" class="newsSource">End Gadget 18/02/2025</h6>
+            <p id="newsDescription" class="newsDescription">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et officia, explicabo excepturi ex cumque deleniti laboriosam. Est maiores ipsa unde!</p>
+        </div>
+    </div>
+    </template>
+    <script src="script.js"></script>
+</body>
+</html>
