@@ -24,6 +24,14 @@ News API – Fetching real-time news content
 🌐 GitHub Pages deployment has limited functionality due to API restrictions.
 
 
+## Preview
+
+### ☀️ Light Mode
+![Homepage](Assets/light-mode.png)
+
+### 🌙 Dark Mode
+![Dark Mode](Assets/dark-mode.png)
+
 
 
 
